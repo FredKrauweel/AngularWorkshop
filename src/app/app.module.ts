@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { GroenComponent } from './groen/groen.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GroenComponent
   ],
   imports: [
     BrowserModule
