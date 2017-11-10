@@ -1,4 +1,3 @@
-<h2>groen</h2>
 <ng-template [ngIf]= "showModal == true" >
   <div class="modal-header">
     <h4 class="modal-title">Modal title</h4>
@@ -11,7 +10,7 @@
     <form>
       <div class="form-group">
         <label for="exampleFormControlSelect1">Example select</label>
-        <select class="form-control" id="exampleFormControlSelect1" [(ngModel)]="rate" name="rate" >
+        <select class="form-control" id="exampleFormControlSelect1" [(ngModel)]="data.rate" name="rate">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -21,11 +20,11 @@
       </div>
       <div class="form-group">
         <label for="exampleFormControlInput1">Naam</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name" [(ngModel)]="name" name="name">
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name" [(ngModel)]="data.name" name="name">
       </div>
       <div class="form-group">
           <label for="exampleFormControlInput2">Emailaddres</label>
-        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com"  [(ngModel)]="email" name="email">
+        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com"  [(ngModel)]="data.email" name="email">
       </div>
       <button type="button" class="btn btn-primary" (click)="sendData()">Submit</button>
     </form>
@@ -37,3 +36,11 @@
 <div class="container">
   <button type="button" class="btn btn-primary" (click)="toggleModal()" *ngIf= "showModal == false">Hier ff klikken</button>
 </div>
+
+
+<!--
+Ik zie heel veel divjes, deze kan je vervangen door een ng-container.
+https://angular.io/guide/structural-directives#ngcontainer
+
+Een ng-container wordt alleen gerenderd als deze nodig is en hier kunnen ook if of for directives op worden toegepast.
+-->

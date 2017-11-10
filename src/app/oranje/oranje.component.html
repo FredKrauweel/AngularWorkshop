@@ -1,0 +1,13 @@
+<h2>oranje</h2>
+
+<ul class="col-md-4">
+  <li *ngFor="let item of megamenu">
+    <a href="#" (click)="subMenu()">{{item.text}}</a>
+     {{item.sub}}
+    </li>
+
+</ul>
+<!-- <div *ngIf="currentStatus>-1" class="col-md-8 right-section">
+  <h2>{{ people[currentStatus]?.name }}</h2>
+  <img [src]="people[currentStatus]?.img" class="img-responsive"/>
+</div> -->

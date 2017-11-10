@@ -1,0 +1,341 @@
+{
+  "megamenu": {
+    "items": [
+      {
+        "text": "Aangifte",
+        "caption": "Aangifte",
+        "columns": "nee",
+
+        "sub": [
+          {
+            "text": "Belastingaangifte 2016",
+            "url": "/wps/wcm/connect/nl/belastingaangifte/belastingaangifte"
+          },
+          {
+            "text": "Aftrek en kortingen",
+            "url": "/wps/wcm/connect/nl/aftrek-en-kortingen/aftrek-en-kortingen"
+          },
+          {
+            "text": "Betalen en ontvangen",
+            "url": "/wps/wcm/connect/nl/betalenenontvangen/betalen-en-ontvangen"
+          },
+          {
+            "text": "Auto en vervoer",
+            "url": "/wps/wcm/connect/nl/auto-en-vervoer/auto-en-vervoer"
+          },
+          {
+            "text": "Schenken en schenkbelasting",
+            "url": "/wps/wcm/connect/nl/schenken/schenken-en-schenkbelasting"
+          },
+          {
+            "text": "Erven en erfbelasting",
+            "url": "/wps/wcm/connect/nl/erfbelasting/erfbelasting"
+          },
+          {
+            "text": "Btw (omzetbelasting)",
+            "url": "/wps/wcm/connect/nl/btw/btw"
+          }
+        ]
+      },
+      {
+        "text": "Voorlopige aanslag",
+        "caption": "Voorlopige aanslag",
+        "columns": "nee",
+        "url": "/wps/wcm/connect/nl/voorlopige-aanslag/voorlopige-aanslag"
+      },
+      {
+        "text": "Toeslagen",
+        "caption": "Toeslagen",
+        "columns": "nee",
+        "url": "/wps/wcm/connect/nl/toeslagen/toeslagen"
+      },
+      {
+        "text": "Mijn situatie verandert",
+        "caption": "Mijn situatie verandert",
+        "columns": "nee",
+
+        "sub": [
+          {
+            "text": "Werk en inkomen",
+            "url": "/wps/wcm/connect/nl/werk-en-inkomen/werk-en-inkomen"
+          },
+          {
+            "text": "Auto en vervoer",
+            "url": "/wps/wcm/connect/nl/auto-en-vervoer/auto-en-vervoer"
+          },
+          {
+            "text": "Koopwoning",
+            "url": "/wps/wcm/connect/nl/koopwoning/koopwoning"
+          },
+          {
+            "text": "Scheiden of uit elkaar gaan",
+            "url": "/wps/wcm/connect/nl/scheiden/scheiden"
+          },
+          {
+            "text": "Erven en erfbelasting",
+            "url": "/wps/wcm/connect/nl/erfbelasting/erfbelasting"
+          },
+          {
+            "text": "Na een overlijden",
+            "url": "/wps/wcm/connect/nl/na_een_overlijden/na_een_overlijden"
+          },
+          {
+            "text": "Wonen of werken buiten Nederland",
+            "url":
+              "/wps/wcm/connect/nl/wonen-of-werken-buiten-nederland/wonen-of-werken-buiten-nederland"
+          }
+        ]
+      },
+      {
+        "text": "Ondernemen",
+        "caption": "Ondernemen",
+        "columns": "nee",
+
+        "sub": [
+          {
+            "text": "Ondernemers",
+            "url": "/wps/wcm/connect/nl/ondernemers/ondernemers"
+          },
+          {
+            "text": "Btw (omzetbelasting)",
+            "url": "/wps/wcm/connect/nl/btw/btw"
+          },
+          {
+            "text": "Betalen en ontvangen",
+            "url": "/wps/wcm/connect/nl/betalenenontvangen/betalen-en-ontvangen"
+          },
+          {
+            "text": "Personeel en loon",
+            "url": "/wps/wcm/connect/nl/personeel-en-loon/personeel-en-loon"
+          },
+          {
+            "text": "De wet DBA",
+            "url": "/wps/wcm/connect/nl/modelovereenkomsten/modelovereenkomsten"
+          },
+          {
+            "text": "Startende ondernemer",
+            "url":
+              "/wps/wcm/connect/nl/startende-ondernemer/startende-ondernemer"
+          },
+          {
+            "text": "Douane voor bedrijven",
+            "url":
+              "/wps/wcm/connect/nl/douane_voor_bedrijven/douane_voor_bedrijven"
+          }
+        ]
+      },
+      {
+        "text": "Douanezaken",
+        "caption": "Douanezaken",
+        "columns": "nee",
+
+        "sub": [
+          {
+            "text": "Douane",
+            "url": "/wps/wcm/connect/nl/douane/douane"
+          },
+          {
+            "text": "Bagage",
+            "url": "/wps/wcm/connect/nl/bagage/bagage"
+          },
+          {
+            "text": "Kopen bij een buitenlandse webshop",
+            "url": "/wps/wcm/connect/nl/internetaankopen/internetaankopen"
+          },
+          {
+            "text": "Douane voor bedrijven",
+            "url":
+              "/wps/wcm/connect/nl/douane_voor_bedrijven/douane_voor_bedrijven"
+          }
+        ]
+      },
+      {
+        "text": "Alle thema's",
+        "caption": "Alle thema's",
+        "columns": "ja",
+
+        "sub": [
+          {
+            "text": "Aftrek en kortingen",
+            "url": "/wps/wcm/connect/nl/aftrek-en-kortingen/aftrek-en-kortingen"
+          },
+          {
+            "text": "Auto en vervoer",
+            "url": "/wps/wcm/connect/nl/auto-en-vervoer/auto-en-vervoer"
+          },
+          {
+            "text": "Bagage",
+            "url": "/wps/wcm/connect/nl/bagage/bagage"
+          },
+          {
+            "text": "Belastingaangifte 2016",
+            "url": "/wps/wcm/connect/nl/belastingaangifte/belastingaangifte"
+          },
+          {
+            "text": "Belastingdienst in beeld",
+            "url": "https://belastingdienst-in-beeld.nl/"
+          },
+          {
+            "text": "Betalen en ontvangen",
+            "url": "/wps/wcm/connect/nl/betalenenontvangen/betalen-en-ontvangen"
+          },
+          {
+            "text":
+              "Bezwaar tegen een belasting of toeslag? Of een klacht indienen?",
+            "url": "/wps/wcm/connect/nl/niet-met-ons-eens/niet-met-ons-eens"
+          },
+          {
+            "text": "Btw (omzetbelasting)",
+            "url": "/wps/wcm/connect/nl/btw/btw"
+          },
+          {
+            "text": "Contact",
+            "url":
+              "/wps/wcm/connect/bldcontentnl/standaard_functies/prive/contact/contact"
+          },
+          {
+            "text": "De wet DBA",
+            "url": "/wps/wcm/connect/nl/modelovereenkomsten/modelovereenkomsten"
+          },
+          {
+            "text": "Douane",
+            "url": "/wps/wcm/connect/nl/douane/douane"
+          },
+          {
+            "text": "Douane voor bedrijven",
+            "url":
+              "/wps/wcm/connect/nl/douane_voor_bedrijven/douane_voor_bedrijven"
+          },
+          {
+            "text": "Erven en erfbelasting",
+            "url": "/wps/wcm/connect/nl/erfbelasting/erfbelasting"
+          },
+          {
+            "text": "FIOD",
+            "url": "/wps/wcm/connect/nl/fiod/fiod"
+          },
+          {
+            "text": "Giften",
+            "url":
+              "/wps/wcm/connect/bldcontentnl/campagnes/landingspaginas/prive/giften/giften"
+          },
+          {
+            "text": "Help",
+            "url":
+              "/wps/wcm/connect/bldcontentnl/standaard_functies/prive/help/help"
+          },
+          {
+            "text": "Intermediairs",
+            "url": "/wps/wcm/connect/nl/intermediairs/intermediairs"
+          },
+          {
+            "text": "Internetondernemers",
+            "url":
+              "/wps/wcm/connect/bldcontentnl/campagnes/landingspaginas/zakelijk/internetondernemers/internetondernemers"
+          },
+          {
+            "text": "Jongeren",
+            "url":
+              "/wps/wcm/connect/bldcontentnl/campagnes/landingspaginas/prive/jongeren/jongeren"
+          },
+          {
+            "text": "Kennisnetwerk belastingen en toeslagen",
+            "url":
+              "/wps/wcm/connect/nl/kennisnetwerk/kennisnetwerk-belastingen-en-toeslagen"
+          },
+          {
+            "text": "Koopwoning",
+            "url": "/wps/wcm/connect/nl/koopwoning/koopwoning"
+          },
+          {
+            "text": "Kopen bij een buitenlandse webshop",
+            "url": "/wps/wcm/connect/nl/internetaankopen/internetaankopen"
+          },
+          {
+            "text": "Na een overlijden",
+            "url": "/wps/wcm/connect/nl/na_een_overlijden/na_een_overlijden"
+          },
+          {
+            "text": "Ondernemers",
+            "url": "/wps/wcm/connect/nl/ondernemers/ondernemers"
+          },
+          {
+            "text": "Ontvang uw post digitaal in de Berichtenbox",
+            "url":
+              "/wps/wcm/connect/bldcontentnl/campagnes/landingspaginas/prive/digitale_post/digitale-post"
+          },
+          {
+            "text": "Personeel en loon",
+            "url": "/wps/wcm/connect/nl/personeel-en-loon/personeel-en-loon"
+          },
+          {
+            "text": "Relatie, familie, gezondheid",
+            "url":
+              "/wps/wcm/connect/bldcontentnl/belastingdienst/prive/relatie_familie_en_gezondheid/relatie_familie_en_gezondheid"
+          },
+          {
+            "text": "Scheiden of uit elkaar gaan",
+            "url": "/wps/wcm/connect/nl/scheiden/scheiden"
+          },
+          {
+            "text": "Schenken en schenkbelasting",
+            "url": "/wps/wcm/connect/nl/schenken/schenken-en-schenkbelasting"
+          },
+          {
+            "text": "Standard Business Reporting (SBR)",
+            "url":
+              "/wps/wcm/connect/bldcontentnl/campagnes/landingspaginas/intermediairs/sbr/sbr"
+          },
+          {
+            "text": "Startende ondernemer",
+            "url":
+              "/wps/wcm/connect/nl/startende-ondernemer/startende-ondernemer"
+          },
+          {
+            "text": "Toeslagen",
+            "url": "/wps/wcm/connect/nl/toeslagen/toeslagen"
+          },
+          {
+            "text": "Voorlopige aanslag",
+            "url": "/wps/wcm/connect/nl/voorlopige-aanslag/voorlopige-aanslag"
+          },
+          {
+            "text": "Werk en inkomen",
+            "url": "/wps/wcm/connect/nl/werk-en-inkomen/werk-en-inkomen"
+          },
+          {
+            "text": "Werken bij de Belastingdienst",
+            "url": "https://werken.belastingdienst.nl/"
+          },
+          {
+            "text": "Wonen of werken buiten Nederland",
+            "url":
+              "/wps/wcm/connect/nl/wonen-of-werken-buiten-nederland/wonen-of-werken-buiten-nederland"
+          },
+          {
+            "text": "Zzp'ers",
+            "url":
+              "/wps/wcm/connect/bldcontentnl/campagnes/landingspaginas/zakelijk/zzp/zzp"
+          }
+        ]
+      }
+    ]
+  },
+  "login": {
+    "items": [
+      {
+        "text": "Mijn Belastingdienst",
+        "url": "https://mijn.belastingdienst.nl/mbd-pmb/"
+      },
+      {
+        "text": "Mijn toeslagen",
+        "url":
+          "/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/inloggen_op_mijn_toeslagen"
+      },
+      {
+        "text": "Voor ondernemers",
+        "url": "https://mijn.belastingdienst.nl/ppa/"
+      }
+    ]
+  }
+}
