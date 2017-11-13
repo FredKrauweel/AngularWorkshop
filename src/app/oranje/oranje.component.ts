@@ -1,31 +1,42 @@
-import { Component, OnInit } from "@angular/core";
-import {Http, Response} from '@angular/http';
+import {Component} from '@angular/core';
+import {Http} from '@angular/http';
 
 @Component({
-  selector: "app-oranje",
-  templateUrl: "./oranje.component.html",
-  styleUrls: ["./oranje.component.css"]
+  selector: 'app-oranje',
+  templateUrl: './oranje.component.html',
+  styleUrls: ['./oranje.component.css']
 })
 
-export class OranjeComponent implements OnInit {
-  megamenu = {};
+export class OranjeComponent {
+  public mainMenuItems = {};
+  public subMenuItems = {};
+  public subTitle = '';
 
+  /**
+   *
+   * @param {Http} http
+   */
   constructor(private http: Http) {
-    console.log(this);
-    this.http.get("assets/megamenu_nl.json").subscribe(res => {
-       const data = res.json();
+    this.http.get('assets/megamenu_nl.json').subscribe(res => {
+      const data = res.json();
 
-       this.megamenu = data['megamenu']['items'];
-
-       console.log(this.megamenu );
-       //if (this.megamenu && this.megamenu.length > 0) this.setThis(this.megamenu[0]);
+      this.mainMenuItems = data['megamenu']['items'];
     });
   }
 
-  ngOnInit() {  }
+  /**
+   *
+   * @param {{name: string; sub: string[]; subTitle: string}} data
+   * @returns {boolean}
+   */
+  subMenu(data: { name: string, sub: string[], subTitle: string }) {
+    if (data.sub.length === 0) {
+      return true;
+    }
 
-  subMenu(){
-    console.log("SubmenuOfNie");
+    this.subMenuItems = data.sub;
+    this.subTitle = data.subTitle;
+    return false;
   }
 }
 
